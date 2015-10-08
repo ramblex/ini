@@ -24,12 +24,12 @@ var section = regexp.MustCompile(SECTION_REGEXP)
 var attribute = regexp.MustCompile(ATTRIBUTE_REGEXP)
 
 // ReadIni reads a configuration file into an map of the form:
-// {
-//     "section name": {
-//       "attribute name": "value",
-//     },
-//	   "section 2 name": { ... },
-// }
+//     {
+//         "section name": {
+//             "attribute name": "value",
+//         },
+//         "section 2 name": { ... },
+//     }
 func ReadIni(path string) (SectionMap, error) {
 	attributes := make(SectionMap)
 
