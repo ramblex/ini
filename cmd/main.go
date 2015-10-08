@@ -6,14 +6,14 @@ import (
 	"flag"
 	"fmt"
 
-	"bitbucket.org/innovaeng/ini"
+	"github.com/ramblex/ini"
 )
 
 var iniPath string
 var outputType string
 
 func init() {
-	flag.StringVar(&iniPath, "ini", "/opt/innova/innova.conf", "Path to ini file")
+	flag.StringVar(&iniPath, "ini", "ini.conf", "Path to ini file")
 	flag.StringVar(&outputType, "output-type", "string", "Output type")
 }
 
