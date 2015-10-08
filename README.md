@@ -3,3 +3,7 @@
 ini is a basic ini file reader that supports sections and attributes which have
 spaces in them. It currently doesn't support nested sections and ignores
 indentation.
+
+## Documentation
+
+Documentation is [here](https://godoc.org/github.com/ramblex/ini)
