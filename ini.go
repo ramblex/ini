@@ -58,7 +58,7 @@ func ReadIni(path string) (SectionMap, error) {
 //
 //     SECTION NAME__ATTRIBUTE=VALUE
 // For example:
-// Platform__Dag Count=3
+// Section Name__Attribute Name=3
 func (s SectionMap) String() (output string) {
 	for section := range s {
 		for attr, value := range s[section] {
